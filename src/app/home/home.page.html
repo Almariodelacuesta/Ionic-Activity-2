@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar color = "secondary">
+    <ion-title>
+      My Activity
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" padding class="background">
+  <div id="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>
+          WELCOME!
+        </ion-card-title>
+        <ion-card-subtitle>
+          We're honor to have a user like you.
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-button [routerLink]="['/login']" class="ion-text-capitalize" color="primary">
+          View Login Form 
+        </ion-button>
+        <ion-card-subtitle>
+          Or
+        </ion-card-subtitle>
+        <ion-button [routerLink]="['/register']" class="ion-text-capitalize" color="primary">
+          View Registration Form
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+ 
+
+</ion-content>
